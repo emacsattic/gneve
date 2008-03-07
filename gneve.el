@@ -192,7 +192,8 @@ Render commands:
     (search-forward "))")
     (backward-char 2)
     (insert (format "\n\"%s\"" (expand-file-name filename)))
-    (forward-char 2))
+    (forward-char 2)
+    (next-line 2))
   (setq vslot-n (vslot-pos (expand-file-name filename) (reverse vslots)))
 ;; if buffer doesn't already exist
    (when (not gn-connection)
