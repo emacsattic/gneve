@@ -120,7 +120,7 @@
   (define-key gneve-mode-map "[" 'preview))
 
 (defun gneve-mode()
-  "EDL and mplayer based GNU Emacs video editing mode
+  "EDL-based GNU Emacs video editing mode using MLT
 
 Video commands:
   V - Visit video file and start playing
