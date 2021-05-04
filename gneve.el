@@ -1,4 +1,4 @@
-;;; gneve.el - GNU Emacs video editor mode for editing video Edit Decision List or EDL
+;;; gneve.el --- GNU Emacs video editor mode for editing video Edit Decision List or EDL
 
 ;; Copyright (C) 2007 Free Software Foundation, Inc.
 
